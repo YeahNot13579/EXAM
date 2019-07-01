@@ -1,0 +1,704 @@
+.header{
+    height:70px;
+    padding-top:10px;
+    background-color: #000;
+}
+.navbar-inverse{
+    background-color: #000;
+    border-color: #000;
+}
+.navbar-nav>li>a{ 
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 700;
+        font-size: 14px;
+        color: #b0b0b0;
+        font-weight: 600;
+        margin-top: 10px;
+        margin-left: 20px;
+}
+.rText {
+    margin: 0; 
+    font-family: 'Raleway', sans-serif;
+    font-size: 36px;   
+    font-weight: normal;
+    text-align: center;
+}
+.hText {
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+}
+
+.pText {
+    font-size: 14px;
+    color: gray;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 20px;
+}
+
+/* =============== SPLITTERS =============== */
+
+.splitter {
+    width: 64px;
+    height: 2px;
+    margin: 30px auto;
+}
+
+.splitter_from-start {
+    margin-left: 0;
+}
+
+.splitter-white {
+    background: #fff;
+}
+
+.splitter_orange {
+    background: #ff8b38;
+}
+
+/* =============== SPLITTERS =============== */
+
+
+/*HOME  */
+/*HOME  */
+/*HOME  */
+.linia1{
+    border: 1.5px solid white;
+    width: 63px;
+    margin: 40px;
+    margin-left: 5px;
+}
+
+.navbar-inverse>navbar-nav>li>a:hover{
+    color: #ff9b51;
+}
+.download {
+    display: block;
+    width: 135px;
+    height: 40px;
+    background: transparent;
+    border: 2px solid #fff;
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    text-align: center;
+    line-height: 35px;
+    transition: 0.2s;
+    margin-left: 0;
+    text-decoration: none;
+}
+
+.download:hover {
+    text-decoration: none;
+    background: #ff8b38;
+    color: #fff;
+    cursor: pointer;
+}
+.b{
+    margin-top: 106px;
+}
+.home{
+    background-attachment:scroll;
+    background: url('../img/Header.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-bottom: 136px;
+}
+.main_text{
+    font-size: 36px;
+    color: #fff;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+    line-height: 46px;
+    margin: 0;
+    margin-top: 25px;
+    text-transform: uppercase;
+
+}
+.text2{
+    color: #b0b0b0;
+    font-weight: 100;
+    font-family: 'Raleway', sans-serif;
+    margin-bottom: 45px;
+    font-size: 16px;
+}
+.form_header {
+    background: #f5f5f5;
+    color: #333;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    padding: 13px;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    margin-top: 30px;
+}
+
+.form_header > span {
+    color: #ff8b38;
+}
+
+.form_content {
+    padding: 30px 37px;
+    background: #fff;
+}
+
+.form_content__input {
+    color: #BDBDBD;
+    padding: 0 13px;
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    width: 100%;
+    height: 30px;
+    border: none;
+    border-bottom: 1px solid #BDBDBD;
+    margin-bottom: 36px;
+}
+
+.form_content__input:focus {
+    outline: none;
+    border-bottom: 1px solid #ff8b38;
+}
+.submit_trial {
+    height: 53px;
+    background: #000;
+    background: #ff9b51;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    color: #fff;
+    border: none;
+    text-align: center;
+    width: 100%;
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+.try_free{
+    margin-top: 90px;
+}
+/*HOME  */
+/*HOME  */
+/*HOME  */
+
+.social__link {
+	line-height: 100px;
+	height: 50px;
+	width: 50px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;	
+	display: inline-block;
+}
+
+.social__link1{
+	background-image: url('../img/facebook.png');
+}
+
+.social__link1:hover {
+	background-image: url('../img/facebook-hover.png');
+}
+
+.social .col-md-1 {
+	display: flex;
+	align-items: center;
+	height: 100px;
+}
+
+.social__link2{
+	background-image: url('../img/twetter.png');
+}
+
+.social__link2:hover {
+    background-image: url('../img/twetter-hover.png');
+}
+
+.social__link3{
+	background-image: url('../img/google-plus.png');
+}
+
+.social__link3:hover {
+	background-image: url('../img/google-plus-hover.png');
+}
+
+.social__link4{
+	background-image: url('../img/pinterest.png');
+}
+
+.social__link4:hover {
+	background-image: url('../img/pinterest-hover.png');
+}
+.social__link5{
+	background-image: url('../img/instagram.png');
+}
+
+.social__link5:hover {
+	background-image: url('../img/instagram-hover.png');
+}
+.social__link6{
+	background-image: url('../img/lynda.png');
+}
+
+.social__link6:hover {
+	background-image: url('../img/lynda-hover.png');
+}
+
+.social__link7{
+	background-image: url('../img/rss.png');
+}
+
+.social__link7:hover {
+	background-image: url('../img/rss-hover.png');
+}
+
+.social {
+	background-color: #fff;
+	box-shadow: 1px 1px 4px rgba(0, 0, 0, .6);
+    margin-bottom: 3px;
+}
+/* TABS */
+/* TABS */
+/* TABS */
+.about_us__tab_item {
+	height: 110px;
+	width: 110px;
+	font-size: 15px;
+	line-height: 110px;
+	text-transform: uppercase;
+	margin-bottom: 1px;
+	background-color: #333333;
+	border-radius: 3px;
+	
+	text-align: center;
+	cursor: pointer;
+}
+
+.about_us__tab_item a{
+	text-decoration: none;
+	color: white;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: bold;
+	width: 100%;
+	display: inline-block;
+}
+
+.about_us {
+	padding-top: 145px;
+	padding-bottom: 115px;
+	background-color: #f5f5f5;
+}
+
+.about_us__tab_item.active {
+	background-color: #ff8b38;
+}
+
+.about_us__button >a{
+	color: white;
+	padding: 15px 25px;
+	border-radius: 3px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 500;
+	font-size: 15px;
+	line-height: 15px;
+	display: inline-block;
+	margin-top: 25px;
+    background-color: #ff8b38;
+    cursor: pointer;
+}
+.download2, .download2:hover{
+    text-decoration: none;
+}
+.about_us__button>a:hover {
+	padding: 15px 25px;
+	border-radius: 3px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 500;
+	font-size: 15px;
+	line-height: 15px;
+	display: inline-block;
+	margin-top: 25px;
+    background-color: darkblue;
+    cursor: pointer;
+}
+.about_us__img_block {
+	margin-top: 40px;
+}
+
+.nav-tabs>li>a {
+	line-height: inherit;
+	border: none;
+	border-radius: 3px;
+}
+
+.nav-tabs>li {
+	margin-bottom: 1px;
+	border: none;
+	outline: none;
+}
+
+.nav>li>a {
+	padding: 0;
+}
+
+.header .nav>li>a {
+	padding: 15px ;
+}
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus {
+	background-color: #ff8b38;
+	color: white;
+	border: none;
+}
+
+.nav-tabs>li.active>a {
+	color: white;
+	border: none;
+}
+
+.nav-tabs>li.active:hover {
+	background: inherit;
+}
+
+nav>li>a:focus, .nav>li>a:hover {
+	background: none;
+}
+
+/* sub_list */
+/* sub_list */
+/*  sub_list */
+.sub_list {
+    padding-top: 93px;
+    padding-bottom: 107px;
+}
+
+.sub_list img {
+    margin-left: -31px;
+    margin-top: 35px;
+}
+.orange_circle {
+    width: 36px;
+    height: 36px;
+    border: 2px solid #ff8b38;
+    border-radius: 50%;
+    text-align: center;
+    cursor: pointer;
+    transition: .2s;
+}
+
+.orange_circle:hover {
+    background: #ff8b38;
+}
+
+.orange_circle:hover i{
+    color: #fff;
+}
+
+.features {
+    margin-top: 40px;
+    padding-left: 0;
+}
+
+.orange_circle i {
+    line-height: 32px;
+    font-size: 13px;
+    color: #ff8b38;
+    margin-left: 2px;
+    transition: .2s;
+
+}
+
+.feature__item {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 30px;    
+}
+
+.feature__item__img {
+    min-width: 70px;
+}
+.feature__item__text h4 {
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    margin: 0;
+    margin-bottom: 5px;
+}
+
+/* end sub_list */
+/* end sub_list */
+/*  end sub_list */
+
+/* =============== st-picture =============== */
+.st_picture{
+    background: #f5f5f5;
+    padding-top: 100px;
+}
+/* =============== why this awesome =============== */
+/* =============== why this awesome =============== */
+/* =============== why this awesome =============== */
+.awesome{
+    padding: 100px;
+}
+.awesome_text{
+    text-align: center;
+}
+.awesome_div{
+    align-items: center;
+}
+.awesome_list_item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding-top: 80px;
+}
+.big_orange_circle {
+    width: 64px;
+    height: 64px;
+}
+
+.big_orange_circle i  {
+    font-size: 32px;
+    margin-top: 15px;    
+}
+/* ===============end why this awesome =============== */
+/* ===============end why this awesome =============== */
+/* ===============end why this awesome =============== */
+
+/* ===============pricing options =============== */
+/* ===============pricing options =============== */
+/* ===============pricing options =============== */
+.pricing_options{
+    padding-top: 200px;
+    background: #f5f5f5;
+}
+.pricing_head {
+    height: 57px;
+    background: #333;
+    font-family: 'Open Sans', sans-serif;
+    color: #fff;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 53px;
+}
+
+.pricing_body {
+    background: #333;
+    border-top: 2px solid #f5f5f5;
+    text-align: center;
+    padding-bottom: 20px;
+    border-bottom: 5px solid #ff8b38;
+}
+.pricing_dollar{
+    font-size: 35px;
+    font-weight: bold;
+    font-family: 'Raleway', sans-serif;
+    color: #fff;
+}
+
+.pricing_number {
+    font-size: 94px;
+    font-weight: bold;
+    color: #fff;
+    font-family: 'Raleway', sans-serif;
+}
+
+.pricing_footer {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 500;
+    color: #adadad;
+}
+.pricing_list__item {
+    list-style: none;
+    text-transform: uppercase;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    color: #86878b;
+    text-align: center;
+    background: #fff;
+    padding: 10px 0;
+    border-bottom: 1px solid #f5f5f5;
+}
+.pricing_2_case {
+    height: 40px;
+    color: #fff;
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
+    background: #ff8b38;
+    line-height: 40px;
+    position: relative;
+    margin-top: 20px;
+    margin-bottom: -20px;
+    border: none;
+}
+.pricing_case{
+    margin-top: 80px;
+}
+.pricing_big_case{
+    margin-top: 40px;
+}
+/* =============== end pricing options =============== */
+/* =============== end pricing options =============== */
+/* =============== end pricing options =============== */
+
+/* =============== commentaries =============== */
+/* =============== commentaries =============== */
+/* =============== commentaries =============== */
+.commentaries{
+    padding-top: 200px;
+}
+.fb__text {
+    text-align: left;
+    padding: 22px 10px 24px 14px;
+    font-style: italic;
+    background: #f5f5f5;
+    border-radius: 3px;
+    position: relative;
+    margin-bottom: 50px;
+    margin-top: 78px;
+}
+.fb__text::before {
+    width: 0; 
+    height: 0; 
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    position: absolute;
+    border-top: 15px solid #f5f5f5;
+    content: '';
+    left: 23px;
+    bottom: -15px;
+}
+
+.fb__author {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background: #000;
+    
+    display: flex;
+    flex-direction: row;
+}
+
+.fb__author_info {
+    margin-left: 15px;
+    padding-top: 10px;    
+}
+
+.fb__author_info > .name {
+    width: 40px;
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    width: 100px;
+}
+
+.fb__author_info > .role {
+    width: 40px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    color: #b4b4b7;
+}
+/* =============== end commentaries =============== */
+/* =============== end commentaries =============== */
+/* =============== end commentaries =============== */
+
+/* ===============  axure design =============== */
+/* ===============  axure design =============== */
+/* ===============  axure design =============== */
+.axure_design{
+   background: url('../img/street.png') no-repeat;
+    background-size: cover;
+    padding-top: 70px;
+    padding-bottom: 62px; 
+    text-align: center;
+    margin-top: 90px;
+    color: white;
+}
+.axure_design .pText{
+    color: lightgray;
+    margin-bottom: 30px;
+
+}
+
+/* =============== end axure design =============== */
+/* =============== end axure design =============== */
+/* =============== end axure design =============== */
+
+/* ===============  contact us =============== */
+/* ===============  contact us =============== */
+/* ===============  contact us =============== */
+.contact_us {
+    padding-top: 108px;
+    padding-bottom: 80px;
+}
+.form_contact__us{
+    padding-top: 80px;
+}
+.form_content__textarea {
+    min-width: 100%;
+    border: none;
+    border-bottom: 1px solid #BDBDBD;
+    color: #BDBDBD;
+    padding: 2px 13px;
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    height: 161px;
+}
+
+.form_content__textarea:focus {
+    border-color: #ff9b51;
+}
+
+.form_content__submit {
+    width: 144px;
+    height: 42px;
+    background: #ff9b51;
+    color: #fff;
+    border: none;
+    font-size: 15px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    border-radius: 3px;
+    margin: 0 auto;
+    cursor: pointer;
+}
+
+.form_content__submit:hover {
+    background: #ff8e38;
+}
+/* =============== end contact us =============== */
+/* =============== end contact us =============== */
+/* =============== end contact us =============== */
+
+/* =============== footer =============== */
+/* =============== footer =============== */
+/* =============== footer =============== */
+.footer_sect{
+    background: black;
+    padding-top: 20px;
+    padding-bottom: 14px;
+    align-items: center;
+    position: relative;
+}
+.icons_in_footer {
+    display: flex;
+    justify-content: center;
+}
+
+.icons_in_footer>a  {
+    height: 24px;
+    width: 24px;
+    color: #ccc;
+    margin: 0 15px;
+}
+.copyright {
+    font-size: 12px;
+    font-family: 'Open Sans', sans-serif;
+    color: #808080;
+    text-align: center;
+    margin-top: 37px;
+}
+/* =============== end footer =============== */
+/* =============== end footer =============== */
+/* =============== end footer =============== */
